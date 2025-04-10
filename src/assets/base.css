@@ -1,64 +1,108 @@
 @font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900; /* 可变字体的权重范围 */
-  font-style: normal;
+  font-family: "Noto Sans SC";
+  src: url("/fonts/NotoSansSC.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
 }
 
 @font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Italic-VariableFont_wght.ttf')
-    format('truetype');
-  font-weight: 100 900; /* 可变字体的权重范围 */
-  font-style: italic;
+  font-family: "ysbth";
+  src: url("/fonts/ysbth.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
 }
 
 @font-face {
-  font-family: 'Plus Jakarta Sans';
-  src: url('/fonts/Noto_Sans_SC/NotoSansSC-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900; /* 可变字体的权重范围 */
+  font-family: "wzsf";
+  src: url("/fonts/wzsf.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
+}
+
+@font-face {
+  font-family: "zzt";
+  src: url("/fonts/zzt.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
+}
+
+@font-face {
+  font-family: "muyaoruanbi";
+  src: url("/fonts/muyaoruanbi.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
+}
+
+@font-face {
+  font-family: "qingsong1";
+  src: url("/fonts/qingsong1.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
+}
+
+@font-face {
+  font-family: "qingsong2";
+  src: url("/fonts/qingsong2.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
+}
+
+@font-face {
+  font-family: "zkkl";
+  src: url("/fonts/zkkl.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
+}
+
+@font-face {
+  font-family: "zkwy";
+  src: url("/fonts/zkwy.ttf") format("truetype");
+  font-weight: 100 900; /* 可变字体的范围，表示 100 到 900 的字重 */
+}
+
+@font-face {
+  font-family: "xynt";
+  src: url("/fonts/xynt.otf") format("opentype");
+  font-weight: normal;
   font-style: normal;
 }
 
-:root {
-  --color-background: #fafafa;
+.noto_sans_sc {
+  font-family: "NotoSansSC";
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: 300;
+.ysbth {
+  font-family: "ysbth";
+}
+
+.wzsf {
+  font-family: "wzsf";
+}
+
+.zzt {
+  font-family: "zzt";
+}
+
+.muyaoruanbi {
+  font-family: "muyaoruanbi";
+}
+
+.qingsong1 {
+  font-family: "qingsong1";
+}
+
+.qingsong2 {
+  font-family: "qingsong2";
+}
+
+.zkkl {
+  font-family: "zkkl";
+}
+
+.xynt {
+  font-family: "xynt";
 }
 
 body {
-  min-height: 100vh;
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
-  line-height: 1.6;
-  font-family:
-    'Plus Jakarta Sans',
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 15px;
+  font-family: "Noto Sans SC", "PingFang SC", sans-serif;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
 }
 
-html[lang='zh-CN'] {
-  font-family: 'Noto Sans CJK', sans-serif;
+body,
+#app {
+  min-height: 100vh;
+  background-color: #f5f5f5;
 }

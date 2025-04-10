@@ -1,5 +1,5 @@
 <template>
-  <nav class="py-6">
+  <nav class="pb-6">
     <ul class="flex items-center gap-4 text-lg">
       <li
         class="hover:underline hover:text-blue-500 transition-colors"

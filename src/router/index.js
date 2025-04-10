@@ -29,6 +29,11 @@ const router = createRouter({
       name: 'animation',
       component: () => import('../views/animation/IndexView.vue'),
     },
+    {
+      path: '/font',
+      name: 'font',
+      component: () => import('../views/font/IndexView.vue'),
+    },
   ],
 })
 

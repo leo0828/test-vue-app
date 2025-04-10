@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-xl m-auto">
+  <div class="max-w-screen-xl m-auto p-6">
     <NavBar></NavBar>
     <RouterView />
   </div>
