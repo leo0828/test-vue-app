@@ -1,13 +1,13 @@
 <template>
   <nav class="pb-6">
     <ul class="flex items-center gap-4 text-lg">
-      <li
-        class="hover:underline hover:text-blue-500 transition-colors"
-        :class="activeRoute === route.name ? 'underline text-blue-500' : ''"
-        v-for="route in routes"
-        :key="route.name"
-      >
-        <router-link :to="route.path">{{ route.name }}</router-link>
+      <li v-for="route in routes" :key="route.name">
+        <router-link
+          class="hover:underline hover:text-blue-500 transition-colors"
+          :class="activeRoute === route.name ? 'underline text-blue-500' : ''"
+          :to="route.path"
+          >{{ route.name }}</router-link
+        >
       </li>
     </ul>
   </nav>
