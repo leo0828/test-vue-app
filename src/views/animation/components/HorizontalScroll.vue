@@ -12,7 +12,7 @@
       <div
         v-for="i in 20"
         :key="i"
-        class="w-32 h-32 bg-blue-500 text-white flex items-center justify-center flex-none"
+        class="w-32 h-32 bg-zinc-800 text-white flex items-center justify-center flex-none"
       >
         Item {{ i }}
       </div>

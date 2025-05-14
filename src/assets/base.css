@@ -95,14 +95,22 @@
   font-family: "xynt";
 }
 
+:root {
+  --el-color-primary: #09090b !important;
+  --el-color-primary-dark-2: #18181b !important;
+  --el-color-primary-light-3: #3f3f46 !important;
+  --el-color-primary-light-7: #a1a1aa !important;
+  --el-color-primary-light-9: #e4e4e7 !important;
+}
+
 body {
   font-family: "Noto Sans SC", "PingFang SC", sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 18px;
+  padding: 100px;
 }
 
 body,
 #app {
-  min-height: 100vh;
   background-color: #f5f5f5;
 }

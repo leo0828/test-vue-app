@@ -19,7 +19,7 @@
             <li
               v-for="(item, key) in data.messages"
               :key="key"
-              :class="item.isSuccess ? 'text-green-500' : 'text-blue-500'"
+              :class="item.isSuccess ? 'text-green-700' : 'text-zinc-900'"
             >
               {{ item.message }}
             </li>

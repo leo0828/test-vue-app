@@ -6,37 +6,37 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "home",
+      name: "Home",
       component: () => import("../views/IndexView.vue"),
     },
     {
       path: "/form",
-      name: "form",
+      name: "Form",
       component: () => import("../views/form/IndexView.vue"),
     },
     {
       path: "/chart",
-      name: "chart",
+      name: "Chart",
       component: () => import("../views/chart/IndexView.vue"),
     },
     {
       path: "/table",
-      name: "table",
+      name: "Table",
       component: () => import("../views/table/IndexView.vue"),
     },
     {
       path: "/animation",
-      name: "animation",
+      name: "Animation",
       component: () => import("../views/animation/IndexView.vue"),
     },
     {
       path: "/font",
-      name: "font",
+      name: "Font",
       component: () => import("../views/font/IndexView.vue"),
     },
     {
       path: "/image",
-      name: "image",
+      name: "Image",
       component: () => import("../views/image/IndexView.vue"),
     },
   ],
