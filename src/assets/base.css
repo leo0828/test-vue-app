@@ -104,8 +104,6 @@
 }
 
 body {
-  font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-  text-rendering: optimizeLegibility;
   font-size: 18px;
   padding: 100px;
 }
