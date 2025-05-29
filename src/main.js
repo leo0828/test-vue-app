@@ -1,7 +1,7 @@
 import { createApp } from "vue"
 import { createPinia } from "pinia"
 import ElementPlus from "element-plus"
-import "element-plus/dist/index.css"
+import "@/assets/element.scss"
 import "./assets/main.css"
 
 import App from "./App.vue"

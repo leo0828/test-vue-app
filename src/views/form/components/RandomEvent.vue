@@ -8,20 +8,18 @@
       </el-form-item>
       <el-form-item>
         <el-button type="primary" @click="handleEvent(form.probability)">点击</el-button>
-        <el-button @click="handleReset">重置</el-button>
+        <el-button plain @click="handleReset">重置</el-button>
       </el-form-item>
     </el-form>
     <template v-if="data.messages.length > 0">
-      <div>实际触发概率：{{ successProbability }}%</div>
+      <div class="flex items-center">
+        实际触发概率：<el-text type="success" class="text-base">{{ successProbability }}%</el-text>
+      </div>
       <div class="bg-white p-3 h-80">
         <el-scrollbar ref="scrollbar">
           <ul ref="container" class="space-y-3">
-            <li
-              v-for="(item, key) in data.messages"
-              :key="key"
-              :class="item.isSuccess ? 'text-green-700' : 'text-zinc-900'"
-            >
-              {{ item.message }}
+            <li v-for="(item, key) in data.messages" :key="key">
+              <el-text :type="item.isSuccess ? 'success' : ''">{{ item.message }}</el-text>
             </li>
           </ul>
         </el-scrollbar>
