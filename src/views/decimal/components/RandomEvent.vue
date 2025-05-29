@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-4 w-1/2">
     <el-form :form="form" inline>
-      <el-form-item label="触发概率">
+      <el-form-item label="预期触发概率">
         <el-input-number v-model="form.probability" :precision="2" :step="0.1" :max="100">
           <template #suffix>%</template>
         </el-input-number>

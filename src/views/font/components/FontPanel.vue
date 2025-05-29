@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white text-zinc-700 text-xl p-6 space-y-6">
+  <div class="bg-white text-zinc-700 text-xl space-y-6">
     <div class="text-2xl">{{ title }}</div>
     <div>
       <slot name="cn"></slot>

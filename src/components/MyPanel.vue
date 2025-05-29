@@ -6,14 +6,14 @@
     <div>
       <slot name="desc"></slot>
     </div>
-    <div>
+    <div class="bg-white p-6">
       <slot></slot>
     </div>
   </div>
 </template>
 
 <script setup>
-import MyHeader from '@/components/MyHeader.vue'
+import MyHeader from "@/components/MyHeader.vue"
 </script>
 
 <style scoped></style>

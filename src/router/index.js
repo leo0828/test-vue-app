@@ -10,9 +10,14 @@ const router = createRouter({
       component: () => import("../views/IndexView.vue"),
     },
     {
-      path: "/form",
-      name: "Form",
-      component: () => import("../views/form/IndexView.vue"),
+      path: "/theme",
+      name: "Theme",
+      component: () => import("../views/theme/IndexView.vue"),
+    },
+    {
+      path: "/decimal",
+      name: "Decimal",
+      component: () => import("../views/decimal/IndexView.vue"),
     },
     {
       path: "/chart",
