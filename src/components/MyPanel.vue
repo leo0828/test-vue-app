@@ -1,12 +1,12 @@
 <template>
-  <div class="space-y-6">
+  <div class="space-y-6 bg-white dark:bg-zinc-800 p-6">
     <MyHeader>
       <slot name="header"></slot>
     </MyHeader>
     <div>
       <slot name="desc"></slot>
     </div>
-    <div class="bg-white p-6">
+    <div>
       <slot></slot>
     </div>
   </div>

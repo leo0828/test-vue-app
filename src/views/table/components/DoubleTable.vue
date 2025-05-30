@@ -1,9 +1,9 @@
 <template>
   <MyTable>
     <template #table1="{ setScrollLeft }">
+      <h3 class="pb-8">table1</h3>
       <el-table
         ref="table1"
-        class="mb-6"
         :data="tableData"
         style="width: 100%"
         @scroll="(value) => setScrollLeft(value, 'table2')"
@@ -19,6 +19,7 @@
       </el-table>
     </template>
     <template #table2="{ setScrollLeft }">
+      <h3 class="pb-8">table2</h3>
       <el-table
         ref="table2"
         :data="tableData"
@@ -37,7 +38,7 @@
 </template>
 
 <script>
-import MyTable from './MyTable.vue'
+import MyTable from "./MyTable.vue"
 
 export default {
   components: {
@@ -47,78 +48,78 @@ export default {
     return {
       tableData: [
         {
-          date: '2016-05-03',
-          name: 'Tom',
-          address: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address1: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address2: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address3: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address4: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address5: 'No. 189, Grove St, Los Angeles No. 189, ',
+          date: "2016-05-03",
+          name: "Tom",
+          address: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address1: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address2: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address3: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address4: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address5: "No. 189, Grove St, Los Angeles No. 189, ",
         },
         {
-          date: '2016-05-02',
-          name: 'Tom',
-          address: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address1: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address2: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address3: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address4: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address5: 'No. 189, Grove St, Los Angeles No. 189, ',
+          date: "2016-05-02",
+          name: "Tom",
+          address: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address1: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address2: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address3: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address4: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address5: "No. 189, Grove St, Los Angeles No. 189, ",
         },
         {
-          date: '2016-05-04',
-          name: 'Tom',
-          address: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address1: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address2: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address3: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address4: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address5: 'No. 189, Grove St, Los Angeles No. 189, ',
+          date: "2016-05-04",
+          name: "Tom",
+          address: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address1: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address2: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address3: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address4: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address5: "No. 189, Grove St, Los Angeles No. 189, ",
         },
         {
-          date: '2016-05-01',
-          name: 'Tom',
-          address: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address1: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address2: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address3: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address4: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address5: 'No. 189, Grove St, Los Angeles No. 189, ',
+          date: "2016-05-01",
+          name: "Tom",
+          address: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address1: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address2: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address3: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address4: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address5: "No. 189, Grove St, Los Angeles No. 189, ",
         },
       ],
       tableData2: [
         {
-          date: '2016-05-03',
-          name: 'Tom',
-          address: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address1: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address2: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address5: 'No. 189, Grove St, Los Angeles No. 189, ',
+          date: "2016-05-03",
+          name: "Tom",
+          address: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address1: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address2: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address5: "No. 189, Grove St, Los Angeles No. 189, ",
         },
         {
-          date: '2016-05-02',
-          name: 'Tom',
-          address: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address1: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address2: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address5: 'No. 189, Grove St, Los Angeles No. 189, ',
+          date: "2016-05-02",
+          name: "Tom",
+          address: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address1: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address2: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address5: "No. 189, Grove St, Los Angeles No. 189, ",
         },
         {
-          date: '2016-05-04',
-          name: 'Tom',
-          address: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address1: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address2: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address5: 'No. 189, Grove St, Los Angeles No. 189, ',
+          date: "2016-05-04",
+          name: "Tom",
+          address: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address1: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address2: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address5: "No. 189, Grove St, Los Angeles No. 189, ",
         },
         {
-          date: '2016-05-01',
-          name: 'Tom',
-          address: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address1: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address2: 'No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles',
-          address5: 'No. 189, Grove St, Los Angeles No. 189, ',
+          date: "2016-05-01",
+          name: "Tom",
+          address: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address1: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address2: "No. 189, Grove St, Los Angeles No. 189, Grove St, Los Angeles",
+          address5: "No. 189, Grove St, Los Angeles No. 189, ",
         },
       ],
     }

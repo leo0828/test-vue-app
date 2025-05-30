@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="space-y-12">
     <div>
       <slot name="table1" :setScrollLeft="setScrollLeft"></slot>
     </div>

@@ -2,7 +2,7 @@
   <MyPanel>
     <template #header> web字体 </template>
     <template #desc> 列举了{{ data.fonts.length }}种中文web字体 </template>
-    <main class="grid grid-cols-1 xl:grid-cols-2 gap-6 max-w-7xl m-auto min-h-screen">
+    <main class="grid grid-cols-1 xl:grid-cols-2 gap-12 max-w-7xl m-auto min-h-screen">
       <FontPanel
         v-for="font in data.fonts"
         :key="font.name"

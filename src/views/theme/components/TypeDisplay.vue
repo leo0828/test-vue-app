@@ -65,7 +65,7 @@
       </section>
 
       <section>
-        <el-form ref="formRef" :model="form" label-width="auto" style="max-width: 600px">
+        <el-form ref="formRef" :model="form" label-position="top" class="max-w-xl">
           <el-form-item label="Activity name" prop="name">
             <el-input v-model="form.name" />
           </el-form-item>
@@ -124,8 +124,8 @@
             <el-input v-model="form.desc" type="textarea" />
           </el-form-item>
           <el-form-item>
-            <el-button type="primary" @click="handleSubmit">提交</el-button>
-            <el-button plain @click="handleReset(formRef)">重置</el-button>
+            <el-button type="primary" @click="handleSubmit">Submit</el-button>
+            <el-button plain @click="handleReset(formRef)">Reset</el-button>
           </el-form-item>
         </el-form>
       </section>

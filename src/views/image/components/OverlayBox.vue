@@ -48,7 +48,7 @@ export default {
 
 <style scoped>
 .container {
-  background-color: #1a1721;
+  background-color: #27272a;
   color: white;
   overflow-x: hidden;
   min-height: 500px;

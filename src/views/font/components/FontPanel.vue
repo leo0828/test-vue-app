@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white text-zinc-700 text-xl space-y-6">
-    <div class="text-2xl">{{ title }}</div>
+  <div class="bg-white dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 text-xl space-y-4">
+    <div class="text-2xl font-bold">{{ title }}</div>
     <div>
       <slot name="cn"></slot>
     </div>

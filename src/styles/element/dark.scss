@@ -1,0 +1,28 @@
+$--colors: (
+  "primary": (
+    "base": #52525b,
+  ),
+  "success": (
+    "base": #14b8a6,
+  ),
+  "warning": (
+    "base": #f59e0b,
+  ),
+  "danger": (
+    "base": #f43f5e,
+  ),
+  "error": (
+    "base": #f43f5e,
+  ),
+  "info": (
+    "base": #0ea5e9,
+  ),
+);
+
+/* just override what you need */
+@forward "element-plus/theme-chalk/src/dark/var.scss" with (
+  $colors: $--colors,
+  $bg-color: (
+    "": #27272a,
+  )
+);
