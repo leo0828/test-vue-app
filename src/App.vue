@@ -1,7 +1,9 @@
 <template>
-  <div class="max-w-screen-xl m-auto p-6 font-mono transition-colors duration-200">
+  <div class="font-mono transition-colors duration-200">
     <NavBar></NavBar>
-    <RouterView />
+    <main class="max-w-screen-xl m-auto p-6">
+      <RouterView />
+    </main>
   </div>
 </template>
 

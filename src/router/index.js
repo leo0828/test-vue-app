@@ -44,6 +44,11 @@ const router = createRouter({
       name: "Image",
       component: () => import("../views/image/IndexView.vue"),
     },
+    {
+      path: "/sticky",
+      name: "Sticky",
+      component: () => import("../views/sticky/IndexView.vue"),
+    },
   ],
 })
 
