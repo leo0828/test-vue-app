@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-y-auto h-150">
     <h1 class="text-center pb-4">Lorem Ipsum</h1>
 
     <article class="grid grid-cols-4 relative">

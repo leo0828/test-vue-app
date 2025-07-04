@@ -49,6 +49,11 @@ const router = createRouter({
       name: "Sticky",
       component: () => import("../views/sticky/IndexView.vue"),
     },
+    {
+      path: "/transform",
+      name: "Transform",
+      component: () => import("../views/transform/IndexView.vue"),
+    },
   ],
 })
 

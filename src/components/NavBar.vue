@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="h-20 flex items-center justify-between z-50 transition duration-300 px-5 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-sm"
+    class="h-20 flex items-center justify-between z-50 transition duration-300 px-5 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-sm sticky top-0 left-0"
   >
     <ul class="flex items-center gap-4 text-lg">
       <li v-for="route in routes" :key="route.name">

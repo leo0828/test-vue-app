@@ -50,8 +50,8 @@ export default {
 .container {
   background-color: #27272a;
   color: white;
-  overflow-x: hidden;
-  min-height: 500px;
+  overflow-y: auto;
+  height: 600px;
 }
 
 .text {
